@@ -44,9 +44,14 @@ public void  verify_user_has_ability_enter_promo()
 @Then("^User proceeds to Checkout and validate the (.+) items in checkout page$")
 public void user_proceeds_to_checkout(String name) throws InterruptedException
 {
-	
+
 	checkoutPage.CheckoutItems();
 	//Assertion to extract name from screen and compare with name
+}
+
+public void test()
+{
+	System.out.println("test");
 }
 
 
