@@ -22,7 +22,7 @@ public String landingPageProductName;
 public String offerPageProductName;
 public CheckoutPage checkoutPage;
 TestContextSetup testContextSetup;
-//Spring framework, EJB, 
+//Spring framework, EJB,
 //SRP
 //
 public CheckoutPageStepDefinition(TestContextSetup testContextSetup)
@@ -35,10 +35,10 @@ public CheckoutPageStepDefinition(TestContextSetup testContextSetup)
 @Then("verify user has ability to enter promo code and place the order")
 public void  verify_user_has_ability_enter_promo()
 {
-	
+
 	Assert.assertTrue(checkoutPage.VerifyPromoBtn());
 	Assert.assertTrue(checkoutPage.VerifyPlaceOrder());
-	
+
 }
 
 @Then("^User proceeds to Checkout and validate the (.+) items in checkout page$")
@@ -51,9 +51,13 @@ public void user_proceeds_to_checkout(String name) throws InterruptedException
 
 public void test()
 {
-	System.out.println("test");
+	//System.out.println("test");
+	System.out.println("test234");
+	System.out.println("test12");
+	System.out.println("test34");
+	System.out.println("test324");
 }
 
 
-	
+
 }

@@ -13,6 +13,3 @@ Examples:
 | Beet  |
 | Braco  |
 
-
-
-
